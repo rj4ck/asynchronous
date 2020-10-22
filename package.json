@@ -1,0 +1,18 @@
+{
+  "name": "asynchronous",
+  "version": "1.0.0",
+  "main": "src/callback/index.js",
+  "author": "Raquel Jackson <r.jackson@msn.com>",
+  "license": "MIT",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:challenge": "node src/callback/challenge.js",
+    "promise": "node src/promise/index.js",
+    "promise:challenge": "node src/promise/challenge.js",
+    "async": "node src/async/index.js",
+    "async:challenge": "node src/async/challenge.js"
+  },
+  "devDependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
